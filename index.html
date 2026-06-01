@@ -33,8 +33,10 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
             <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#struktur">Struktur Intansi</a></li>
             <li class="nav-item"><a class="nav-link" href="#berita">Berita</a></li>
             <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+            <li class="nav-item"><a class="nav-link" href="#brosur"> Brosur </a></li>
             <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
           </ul>
         </div>
@@ -86,6 +88,28 @@
               <li>Meningkatkan layanan sosial.</li>
               <li>Meningkatkan perlindungan sosial.</li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Struktur Organisasi -->
+    <section id="struktur" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Struktur Organisasi</h2>
+          <p class="text-muted">Dinas Sosial Kota Cilegon</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card shadow border-0">
+              <div class="card-body text-center">
+                <img src="img/struktur.jpeg" alt="Struktur Organisasi" class="img-fluid struktur-img" data-bs-toggle="modal" data-bs-target="#strukturModal" />
+
+                <p class="mt-3 text-muted">Klik gambar untuk memperbesar</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,6 +248,35 @@
       </div>
     </section>
 
+    <!-- Brosur Informasi -->
+    <section id="brosur" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary">Brosur Informasi</h2>
+          <p class="text-muted">Publikasi Resmi Dinas Sosial Kota Cilegon</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="card shadow-lg border-0 brosur-card">
+              <img src="img/brosur.png" alt="Brosur JSCB" class="brosur-img" />
+
+              <div class="card-body text-center">
+                <h4 class="text-primary">Jaminan Sosial Cilegon Bermartabat (JSCB)</h4>
+
+                <p>Program Bantuan Sosial Lansia dan Disabilitas Tahun 2026.</p>
+
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brosurModal">
+                  <i class="bi bi-eye"></i>
+                  Lihat Brosur
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Kontak -->
     <section id="kontak" class="py-5">
       <div class="container">
@@ -274,6 +327,40 @@
         <div class="modal-content border-0">
           <div class="modal-body p-0">
             <img id="modalImage" src="" class="img-fluid w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Brosur -->
+    <div class="modal fade" id="brosurModal" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Brosur Program JSCB</h5>
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <img src="img/brosur.png" class="img-fluid rounded shadow" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Struktur -->
+    <div class="modal fade" id="strukturModal" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Struktur Organisasi Dinas Sosial</h5>
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <img src="img/struktur.jpeg" class="img-fluid" />
           </div>
         </div>
       </div>
