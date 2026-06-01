@@ -43,3 +43,53 @@ footer {
 .galeri-img:hover {
   transform: scale(1.05);
 }
+
+/* ==========================
+   BROSUR
+========================== */
+
+#brosur {
+  background: #fff;
+}
+
+.brosur-card {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.brosur-card:hover {
+  transform: translateY(-5px);
+}
+
+.brosur-img {
+  width: 100%;
+  max-height: 650px;
+  object-fit: contain;
+  background: #f8f9fa;
+  padding: 15px;
+}
+
+#brosur .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+/* Struktur Organisasi */
+
+#struktur {
+  scroll-margin-top: 80px;
+}
+
+.struktur-img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.struktur-img:hover {
+  transform: scale(1.02);
+}
