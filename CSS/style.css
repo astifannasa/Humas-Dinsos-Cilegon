@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 123, 255, 0.85), rgba(0, 86, 179, 0.85)), url('assets/banner.jpg');
+
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.galeri-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.galeri-img:hover {
+  transform: scale(1.05);
+}
